@@ -1,0 +1,79 @@
+header{
+   position: sticky;
+   top: 0;
+   width: 100%;
+   font-family: montserrat;
+   margin-right: 5px;
+   z-index: 100;
+  }
+
+  
+  a.hover_black:hover { 
+   color: #74b9ff !important;
+} 
+
+#back-to-top {
+     opacity: 0.5;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  /*right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#scrollUp
+{
+padding: 9px 11px 11px 10px;
+right: 50px;
+position: fixed;
+bottom : 100px;
+opacity: 0.3;
+width: 80px;
+height: 80px;
+transition-property: all;
+transition-duration: 0.7s;
+transition-timing-function: ease;
+transition-delay: 0s;
+
+}
+
+h2{
+   font-weight: bold;
+   color: #74b9ff;
+   margin-top: 20px;
+}
+
+.artemis, .ares, .hercules {
+   font-weight: bold;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+input{
+   color: #4425f5;
+}
+
+.alert-heading {
+   font-weight: bolder;
+   text-align: center;
+}
+
+p{
+text-align: justify;
+}
+
+#contact{
+   margin-top: 10px;
+}
+
+.label{
+   margin-top: 5px;
+}
